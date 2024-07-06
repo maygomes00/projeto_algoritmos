@@ -14,7 +14,7 @@ def database():
     ''')
     #Inicializar e carregar arestas do Grafo
     arestas = []
-    with open('edges.txt', 'r') as f:
+    with open('bio-human-gene1.edges', 'r') as f:
         for linha in f:
             partes = linha.split()
             origem = int(partes[0])
@@ -24,4 +24,5 @@ def database():
 
     cursor.executemany('INSERT INTO grafo (origem, destino, peso) VALUES (?, ?, ?)', arestas)
     condb.commit()
+    #Fechar conexão do database
     condb.close()
