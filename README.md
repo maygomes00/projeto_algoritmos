@@ -31,4 +31,4 @@ Calcula o melhor caminho entre dois pontos em um grafo utilizando o algoritmo de
 - `database.py`: Script para criação e população do banco de dados.
 - `graph.py`: Script para carregar o grafo e implementar o algoritmo de Dijkstra.
 - `visualization.py`: Script para visualização gráfica do grafo.
-- `dados/`: Diretório contendo o arquivo de dados do grafo.
+- `data/`: Diretório contendo o arquivo de dados do grafo.
