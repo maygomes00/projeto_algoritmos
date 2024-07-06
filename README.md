@@ -15,11 +15,12 @@ Calcula o melhor caminho entre dois pontos em um grafo utilizando o algoritmo de
 
 ## Uso
 
-1. Execute o script principal `main.py`:
+1. Rode o ambiente virtual ``venv``
+2. Execute o script principal `main.py`:
     ```
     python main.py
     ```
-2. Siga as instruções em tela para inserir os inputs: o nó de origem e o nó de destino.
+3. Siga as instruções em tela para inserir os inputs: o nó de origem e o nó de destino.
 
 ## Estrutura do Projeto
 
