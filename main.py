@@ -1,5 +1,5 @@
 from scripts.database import database
-from scripts.grafo import dijkstra, initialize_graph
+from scripts.graph import dijkstra, initialize_graph
 #from scripts.visualization import visualizar_Graforafo
 
 if __name__ == "__main__":

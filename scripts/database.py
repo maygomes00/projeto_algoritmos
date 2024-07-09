@@ -19,7 +19,7 @@ def database():
             partes = linha.split()
             origem = int(partes[0])
             destino = int(partes[1])
-            peso = int(partes[2])
+            peso = float(partes[2])
             arestas.append((origem, destino, peso))
 
     cursor.executemany('INSERT INTO graph (origem, destino, peso) VALUES (?, ?, ?)', arestas)
