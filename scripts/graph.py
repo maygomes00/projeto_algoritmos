@@ -22,14 +22,14 @@ def initialize_graph():
 def dijkstra(grafo, origem, destino):
     #Incialzar distâncias dos nós aos nós de origem 
     distancias = {}
-    for no in grafo.nos:
+    for no in grafo.nodes:
         distancias[no] = float('inf')
     distancias[origem] = 0
     #Inicializar nó anterior dos nós nos caminhos mais curtos
     caminho_ant = {}
-    for no in grafo.nos:  
+    for no in grafo.nodes:  
         caminho_ant[no] = None
-    n_visitados = list(grafo.nos)
+    n_visitados = list(grafo.nodes)
 
     while n_visitados:
         #Mapear nó não visitado com menor distância
