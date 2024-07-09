@@ -47,7 +47,6 @@ def dijkstra(grafo, origem, destino):
                 distancias[vizinho] = distancia
                 caminho_ant[vizinho] = no_atual
 
-    # Reconstrói o caminho mais curto
     caminho_curto = []
     no_atual = destino
     while no_atual is not None:

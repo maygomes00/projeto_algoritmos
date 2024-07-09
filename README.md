@@ -27,8 +27,8 @@ Calcula o melhor caminho entre dois pontos em um grafo utilizando o algoritmo de
 
 ## Estrutura do Projeto
 
-- `main.py`: Script principal que integra todas as funcionalidades.
-- `database.py`: Script para criação e população do banco de dados.
-- `graph.py`: Script para carregar o grafo e implementar o algoritmo de Dijkstra.
-- `visualization.py`: Script para visualização gráfica do grafo.
-- `data/`: Diretório contendo o arquivo de dados do grafo.
+- `data/`: Pasta contendo o arquivo de dados do grafo.
+- `database.py`: Arquivo para criação e inicialização do Database.
+- `graph.py`: Arquivo para carregar o grafo e implementar o algoritmo de Dijkstra.
+- `main.py`: Aquivo principal do Projeto.
+- `visualization.py`: Arquivo para visualização gráfica do grafo.
