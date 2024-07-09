@@ -14,7 +14,7 @@ def database():
     ''')
     #Inicializar e carregar arestas do Grafo
     arestas = []
-    with open('bio-human-gene1.edges', 'r') as f:
+    with open('data/bio-human-gene1.edges', 'r') as f:
         for linha in f:
             partes = linha.split()
             origem = int(partes[0])
