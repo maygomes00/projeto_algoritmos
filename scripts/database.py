@@ -22,7 +22,7 @@ def database():
             peso = int(partes[2])
             arestas.append((origem, destino, peso))
 
-    cursor.executemany('INSERT INTO grafo (origem, destino, peso) VALUES (?, ?, ?)', arestas)
+    cursor.executemany('INSERT INTO graph (origem, destino, peso) VALUES (?, ?, ?)', arestas)
     condb.commit()
     #Fechar conexão do database
     condb.close()
