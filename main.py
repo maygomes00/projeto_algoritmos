@@ -1,6 +1,6 @@
 from scripts.database import database
 from scripts.graph import dijkstra, initialize_graph
-#from scripts.visualization import visualizar_Graforafo
+from scripts.visualization import visu_graph
 
 if __name__ == "__main__":
     #Carregar dados do database
@@ -13,6 +13,7 @@ if __name__ == "__main__":
     #Chamar a função Dijkstra para calcular o caminho mais curto e as distâncias do nó de origem ao nó de destino
     caminho, distancias = dijkstra(Grafo, origem, destino)
 
+    #Caminho infinito == inexistente
     if distancias[destino] == float('inf'):
         print(f"Não há caminho disponível de {origem} para {destino}.")
     else:
@@ -21,3 +22,5 @@ if __name__ == "__main__":
         
         # Exibe a distância total do caminho mais curto
         print(f"A distância total é: {distancias[destino]}")
+
+    visu_graph(Grafo, caminho)
