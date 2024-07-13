@@ -12,6 +12,7 @@ Calcula o melhor caminho entre dois pontos em um grafo utilizando o algoritmo de
 - sqlite3
 - networkx
 - matplotlib
+- tkinter
 
 ## Uso
 
