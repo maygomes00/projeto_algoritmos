@@ -23,4 +23,4 @@ if __name__ == "__main__":
         # Exibe a distância total do caminho mais curto
         print(f"A distância total é: {distancias[destino]}")
 
-    visu_graph(Grafo, caminho)
+        visu_graph(Grafo, caminho)
