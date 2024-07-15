@@ -16,22 +16,25 @@ Calcula o melhor caminho entre dois pontos em um grafo utilizando o algoritmo de
 
 ## Uso
 
-1. Crie um ambiente virtual ``venv```
+1. Crie uma pasta, que vai ser a principal, e vai conter a pasta do projeto de um ambiente virtual
 
-2. Rode o ambiente virtual ``venv`` (vá até o cd do projeto):
+2. Nessa nova pasta crie um ambiente virtual ``venv``
+
+3. Rode o ambiente virtual ``venv`` (vá até o cd do projeto):
     ```
     $source venv/bin/activate
     ```
-
-3. Instale as dependências do projeto através do arquivo ``requirements.txt``
+4. Instale as dependências do projeto através do arquivo ``requirements.txt``
     ```
     $pip install -r requirements.txt
     ```
-2. Execute o script principal `main.py`:
+5. A pasta do projeto ``projeto_algoritmos`` deve estar nesta mesma pasta (que agora contém duas pastas)
+
+6. Dentro da pasta do projeto ``projeto_algoritmos`` execute o script principal `main.py`:
     ```
     $python main.py
     ```
-3. Siga as instruções em tela para inserir os inputs: o nó de origem e o nó de destino.
+7. Siga as instruções em tela para inserir os inputs: o nó de origem e o nó de destino.
 
 ## Estrutura do Projeto
 
