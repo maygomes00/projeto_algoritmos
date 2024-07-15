@@ -16,9 +16,16 @@ Calcula o melhor caminho entre dois pontos em um grafo utilizando o algoritmo de
 
 ## Uso
 
-1. Rode o ambiente virtual ``venv`` (vá até o cd do projeto):
+1. Crie um ambiente virtual ``venv```
+
+2. Rode o ambiente virtual ``venv`` (vá até o cd do projeto):
     ```
     $source venv/bin/activate
+    ```
+
+3. Instale as dependências do projeto através do arquivo ``requirements.txt``
+    ```
+    $pip install -r requirements.txt
     ```
 2. Execute o script principal `main.py`:
     ```
