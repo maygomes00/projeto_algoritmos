@@ -16,7 +16,7 @@ Calcula o melhor caminho entre dois pontos em um grafo utilizando o algoritmo de
 
 ## Uso
 
-1. Crie uma pasta, que vai ser a principal, e vai conter a pasta do projeto de um ambiente virtual
+1. Crie uma pasta, que vai ser a principal, e vai conter a pasta do projeto (projeto_algoritmos) e de um ambiente virtual
 
 2. Nessa nova pasta crie um ambiente virtual ``venv``
 
